@@ -1,0 +1,306 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 5F821CF3
+P 1500 6000
+F 0 "#PWR0101" H 1500 5750 50  0001 C CNN
+F 1 "GND" H 1505 5827 50  0000 C CNN
+F 2 "" H 1500 6000 50  0001 C CNN
+F 3 "" H 1500 6000 50  0001 C CNN
+	1    1500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3900 1000 3900
+$Comp
+L power:+5V #PWR0102
+U 1 1 5F8217D5
+P 1500 2350
+F 0 "#PWR0102" H 1500 2200 50  0001 C CNN
+F 1 "+5V" H 1515 2523 50  0000 C CNN
+F 2 "" H 1500 2350 50  0001 C CNN
+F 3 "" H 1500 2350 50  0001 C CNN
+	1    1500 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4500 1000 4500
+Wire Wire Line
+	1000 4500 1000 4350
+Wire Wire Line
+	1000 4050 1000 3900
+$Comp
+L power:+5V #PWR01
+U 1 1 5F82E28B
+P 3000 1850
+F 0 "#PWR01" H 3000 1700 50  0001 C CNN
+F 1 "+5V" H 3015 2023 50  0000 C CNN
+F 2 "" H 3000 1850 50  0001 C CNN
+F 3 "" H 3000 1850 50  0001 C CNN
+	1    3000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F82EBB9
+P 3000 6000
+F 0 "#PWR02" H 3000 5750 50  0001 C CNN
+F 1 "GND" H 3005 5827 50  0000 C CNN
+F 2 "" H 3000 6000 50  0001 C CNN
+F 3 "" H 3000 6000 50  0001 C CNN
+	1    3000 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3650 5400 4750
+$Comp
+L Device:R R1
+U 1 1 5F83D60C
+P 2000 4900
+F 0 "R1" H 2070 4946 50  0000 L CNN
+F 1 "470" H 2070 4855 50  0000 L CNN
+F 2 "" V 1930 4900 50  0001 C CNN
+F 3 "~" H 2000 4900 50  0001 C CNN
+	1    2000 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4200 2000 4750
+$Comp
+L LED:WS2812B LED_STRIP1
+U 1 1 5F8233C1
+P 1500 4200
+F 0 "LED_STRIP1" H 1250 4550 50  0000 R CNN
+F 1 "WS2812B" H 1250 4450 50  0000 R CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1550 3900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1600 3825 50  0001 L TNN
+	1    1500 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 5F8283A1
+P 1000 4200
+F 0 "C1" H 750 4250 50  0000 L CNN
+F 1 "1000uF" H 600 4150 50  0000 L CNN
+F 2 "" H 1000 4200 50  0001 C CNN
+F 3 "~" H 1000 4200 50  0001 C CNN
+	1    1000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4200 1800 4200
+Wire Wire Line
+	1500 4500 1500 6000
+Connection ~ 1500 4500
+Wire Wire Line
+	1500 3900 1500 2350
+Connection ~ 1500 3900
+Wire Wire Line
+	5900 4750 5900 6000
+Connection ~ 5900 4750
+Wire Wire Line
+	5400 4750 5900 4750
+Wire Wire Line
+	5500 3650 5400 3650
+Wire Wire Line
+	7050 3850 6300 3850
+Wire Wire Line
+	7050 4250 7050 3850
+Wire Wire Line
+	6700 4750 6400 4750
+Connection ~ 6700 4750
+Wire Wire Line
+	6700 4100 6700 4750
+Wire Wire Line
+	6900 4100 6700 4100
+Wire Wire Line
+	6900 4750 6700 4750
+Wire Wire Line
+	6900 4400 6900 4750
+$Comp
+L Device:R_POT RV1
+U 1 1 5F836D79
+P 6900 4250
+F 0 "RV1" H 6831 4296 50  0000 R CNN
+F 1 "10K" H 6831 4205 50  0000 R CNN
+F 2 "" H 6900 4250 50  0001 C CNN
+F 3 "~" H 6900 4250 50  0001 C CNN
+	1    6900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3350 5900 2350
+Connection ~ 5900 3350
+Wire Wire Line
+	6500 3350 5900 3350
+Wire Wire Line
+	6300 4350 6500 4350
+Connection ~ 6400 4750
+Wire Wire Line
+	6400 4250 6400 4750
+Wire Wire Line
+	6300 4250 6400 4250
+Wire Wire Line
+	5900 4750 6400 4750
+$Comp
+L power:+5V #PWR03
+U 1 1 5F8314BC
+P 5900 2350
+F 0 "#PWR03" H 5900 2200 50  0001 C CNN
+F 1 "+5V" H 5915 2523 50  0000 C CNN
+F 2 "" H 5900 2350 50  0001 C CNN
+F 3 "" H 5900 2350 50  0001 C CNN
+	1    5900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5F83061F
+P 5900 6000
+F 0 "#PWR04" H 5900 5750 50  0001 C CNN
+F 1 "GND" H 5905 5827 50  0000 C CNN
+F 2 "" H 5900 6000 50  0001 C CNN
+F 3 "" H 5900 6000 50  0001 C CNN
+	1    5900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:RC1602A LCD1
+U 1 1 5F82F586
+P 5900 4050
+F 0 "LCD1" H 5900 4931 50  0000 C CNN
+F 1 "RC1602A" H 5900 4840 50  0000 C CNN
+F 2 "Display:RC1602A" H 6000 3250 50  0001 C CNN
+F 3 "http://www.raystar-optronics.com/down.php?ProID=18" H 6000 3950 50  0001 C CNN
+	1    5900 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4950 3950 5950
+Wire Wire Line
+	4750 4850 4750 5950
+Wire Wire Line
+	4750 5950 3950 5950
+Connection ~ 3950 5950
+Wire Wire Line
+	4650 5050 4600 5050
+Wire Wire Line
+	4600 4850 4750 4850
+Wire Wire Line
+	4000 4950 3950 4950
+Wire Wire Line
+	2000 5050 2000 6500
+$Comp
+L Device:R R2
+U 1 1 5F8D1B08
+P 6500 3650
+F 0 "R2" H 6570 3696 50  0000 L CNN
+F 1 "220" H 6570 3605 50  0000 L CNN
+F 2 "" V 6430 3650 50  0001 C CNN
+F 3 "~" H 6500 3650 50  0001 C CNN
+	1    6500 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3350 6500 3500
+Wire Wire Line
+	6500 3800 6500 4350
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 5F8605E4
+P 4300 4950
+F 0 "SW1" H 4300 5317 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 4300 5226 50  0000 C CNN
+F 2 "" H 4150 5110 50  0001 C CNN
+F 3 "~" H 4300 5210 50  0001 C CNN
+	1    4300 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4350 4850 6500
+Wire Wire Line
+	2000 6500 4850 6500
+Wire Wire Line
+	4650 5050 4650 4050
+Wire Wire Line
+	3850 2850 3850 5050
+Wire Wire Line
+	3850 5050 4000 5050
+Wire Wire Line
+	4000 4850 4000 2950
+Wire Wire Line
+	3750 4650 3750 3550
+Wire Wire Line
+	3750 3550 5500 3550
+Wire Wire Line
+	5300 3650 5300 4250
+Wire Wire Line
+	5300 4250 5500 4250
+Wire Wire Line
+	5200 2750 5200 4350
+Wire Wire Line
+	5200 4350 5500 4350
+Wire Wire Line
+	5500 4450 5100 4450
+Wire Wire Line
+	5100 4450 5100 2650
+Wire Wire Line
+	5000 3050 5000 4550
+Wire Wire Line
+	5000 4550 5500 4550
+Wire Wire Line
+	3600 3050 5000 3050
+Wire Wire Line
+	4000 2950 3600 2950
+Wire Wire Line
+	3600 2850 3850 2850
+Wire Wire Line
+	3600 4350 4850 4350
+Wire Wire Line
+	4650 4050 3600 4050
+Wire Wire Line
+	3600 3750 5500 3750
+Wire Wire Line
+	3600 3650 5300 3650
+Wire Wire Line
+	3000 1850 3000 2150
+Wire Wire Line
+	3600 2750 5200 2750
+Wire Wire Line
+	5100 2650 3600 2650
+Wire Wire Line
+	3600 4650 3750 4650
+Wire Wire Line
+	3000 5950 3950 5950
+Wire Wire Line
+	3000 6000 3000 5950
+Connection ~ 3000 5950
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-MU U1
+U 1 1 5F90F3FB
+P 3000 3950
+F 0 "U1" H 2800 3550 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 2850 3700 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 3000 3950 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3000 3950 50  0001 C CNN
+	1    3000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5750 3000 5950
+$EndSCHEMATC
