@@ -6,3 +6,4 @@
 1x 470R Resistor
 1x 7cm x 3cm Protoboard
 1x 2.54mm Pin Header Male
+1x 3-pin JST-SM Connector Male

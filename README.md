@@ -11,24 +11,35 @@ Designed to be modular, KeyLED can be configured for any keyboard length and key
 ---
 
 ## Features
-- **Fasdf** - sdfdsf
+- **Built-in Scale/Mode Library** - 19 scales and modes to cover all genres and styles of music
+- **Modular Design** - can be configured for any keyboard length (25 keys to 100+ keys) and key widths
+- **Easy to DIY** - uses common and cheap electrical components and a 3d-printed case, with all design files provided (schematics, models, firmware, etc.)
+- **Intuitive Interface** - a single rotary knob for selecting root note and scale, as well as device configuration
 
 ---
 
 ## How to Use
 
+1. Attach LED strip to keyboard using 3d-printed plastic clips or backing adhesive
+2. Long-press rotary knob to enter configuration menu
+3. Rotate rotary knob to change setting, press rotary knob to select setting
+4. Rotate rotary knob to change parameter, press rotary knob once completed, repeat until configured
+5. Long-press rotary knob to exit configuration menu
+6. Select Root Note, press rotary knob
+7. Select Scale/Mode
+8. Play!
+
 ---
 
-## Demonstrations
+## Demonstrations (click to play)
 
-Changing scale and root note:
-[![](https://img.youtube.com/vi/ERQJ_ipnesM/0.jpg)](https://www.youtube.com/watch?v=ERQJ_ipnesM)
+Changing scale and root note: [![](/images/keyled-thumbnail-1.jpg)](https://www.youtube.com/watch?v=ERQJ_ipnesM)
 
-Configuring for a new keyboard:
-[![](https://img.youtube.com/vi/EnNY4Os5I3w/0.jpg)](https://www.youtube.com/watch?v=EnNY4Os5I3w)
+Configuring a new keyboard:
+[![](/images/keyled-thumbnail-2.jpg)](https://www.youtube.com/watch?v=EnNY4Os5I3w)
 
 Playing around with scales, [Vangelis](https://en.wikipedia.org/wiki/Vangelis)-style:
-[![](https://img.youtube.com/vi/hRMsHAzw57w/0.jpg)](https://www.youtube.com/watch?v=hRMsHAzw57w)
+[![](/images/keyled-thumbnail-2.jpg)](https://www.youtube.com/watch?v=hRMsHAzw57w)
 
 ---
 
