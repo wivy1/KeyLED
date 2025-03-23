@@ -21,13 +21,16 @@ Designed to be modular, KeyLED can be configured for any keyboard length and key
 ## How to Use
 
 1. Attach LED strip to keyboard using 3d-printed plastic clips or backing adhesive
-2. Long-press rotary knob to enter configuration menu
-3. Rotate rotary knob to change setting, press rotary knob to select setting
-4. Rotate rotary knob to change parameter, press rotary knob once completed, repeat until configured
-5. Long-press rotary knob to exit configuration menu
-6. Select Root Note, press rotary knob
-7. Select Scale/Mode
-8. Play!
+2. Select Root Note, press rotary knob
+3. Select Scale/Mode
+4. Play!
+
+To configure a new keyboard:
+
+1. Long-press rotary knob to enter configuration menu
+2. Rotate rotary knob to desired parameter, press rotary knob to select
+3. Rotate rotary knob to change parameter, press rotary knob to accept, repeat until all parameters configured
+4. Long-press rotary knob to exit configuration menu
 
 ---
 
