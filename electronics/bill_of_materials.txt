@@ -1,0 +1,8 @@
+1x Pro Micro 5V 16MHz ATMEGA32U4 Microcontroller Board
+1x 1602 16x2 Character LCD Display Module
+1x 5-pin Rotary Encoder with Switch EC11 20mm
+1x 3362 1/4" Square Trimpot
+1x 1000uF 25V Electrolytic Capacitor
+1x 470R Resistor
+1x 7cm x 3cm Protoboard
+1x 2.54mm Pin Header Male
