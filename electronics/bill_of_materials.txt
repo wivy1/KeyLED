@@ -9,3 +9,4 @@
 1x 3-pin JST-SM Connector Male
 1x 5V 1A DC Power Supply Adapter with 2.5mm Barrel Tip
 1x 2.5mm DC Barrel Jack
+1 meter (or more) of WS2812B Individually Addressable Programmable RGB LED Strip (5050 LED, 144LEDs/m density)
