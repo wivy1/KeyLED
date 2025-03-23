@@ -7,3 +7,5 @@
 1x 7cm x 3cm Protoboard
 1x 2.54mm Pin Header Male
 1x 3-pin JST-SM Connector Male
+1x 5V 1A DC Power Supply Adapter with 2.5mm Barrel Tip
+1x 2.5mm DC Barrel Jack
