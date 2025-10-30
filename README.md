@@ -42,7 +42,7 @@ Configuring a new keyboard:
 [![](/images/keyled-thumbnail-2.jpg)](https://www.youtube.com/watch?v=EnNY4Os5I3w)
 
 Playing around with scales, [Vangelis](https://en.wikipedia.org/wiki/Vangelis)-style:
-[![](/images/keyled-thumbnail-2.jpg)](https://www.youtube.com/watch?v=hRMsHAzw57w)
+[![](/images/keyled-thumbnail-3.jpg)](https://www.youtube.com/watch?v=hRMsHAzw57w)
 
 ---
 
