@@ -1,4 +1,4 @@
 https://fastled.io/
 https://github.com/thijse/Arduino-EEPROMEx
 https://github.com/arduino-libraries/LiquidCrystal
-https://github.com/skathir38/Rotary
+https://github.com/buxtronix/arduino/tree/master/libraries/Rotary
